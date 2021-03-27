@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>the MAth Quiz Game</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="quiz_page.js"></script>
+</head>
+<body>
+    <h4 id="player1_name"></h4> <span id="player_1_score"></span>
+	<br>
+	<h4 id="player2_name"></h4> <span id="player_2_score"></span>
+    <center>
+		<h1>
+			Game
+		</h1>
+        <h3 id="player_question"></h3>
+        <h3 id="player_answer"></h3>
+
+        <div id="output">
+            <h3 id="answer_box_ques"></h3>
+            <input type="text" id="answer_box_user_ans" class="form-control"  placeholder="Answer">
+            <button id="check_button" class="btn btn-danger">Check</button>
+        </div>
+        <div>
+            <h3>Number 1</h3>
+            <input type="text" id="number_1" class="form-control" placeholder="Answer">
+            <h3>Number 2</h3>
+            <input type="text" id="number_2" class="form-control" placeholder="Answer">
+        </div>
+        <button id="send_2" class="btn btn-danger" onclick="send()">Send</button>
+        <br>
+        <br>
+    </center>
